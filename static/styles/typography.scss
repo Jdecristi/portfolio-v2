@@ -1,0 +1,142 @@
+@use "sass:math";
+
+$font-ratio: 1.225;
+$F800: math.pow($font-ratio, 8) * 1rem;
+$F700: math.pow($font-ratio, 7) * 1rem;
+$F600: math.pow($font-ratio, 6) * 1rem;
+$F500: math.pow($font-ratio, 5) * 1rem;
+$F400: math.pow($font-ratio, 4) * 1rem;
+$F300: math.pow($font-ratio, 3) * 1rem;
+$F200: math.pow($font-ratio, 2) * 1rem;
+$F100: $font-ratio * 1rem;
+$F-100: math.pow($font-ratio, -1) * 1rem;
+$F-200: math.pow($font-ratio, -2) * 1rem;
+
+h1 {
+  font-size: $F800;
+  font-family: "Bebas Neue";
+}
+h2 {
+  font-size: $F700;
+  font-family: "Bebas Neue";
+}
+h3 {
+  font-size: $F600;
+  font-family: "Bebas Neue";
+}
+h4 {
+  font-size: $F500;
+  font-family: "Bebas Neue";
+}
+h5 {
+  font-size: $F400;
+  font-family: "Bebas Neue";
+}
+h6 {
+  font-size: $F300;
+  font-family: "Bebas Neue";
+}
+
+span {
+  font-size: $F200;
+}
+
+p {
+  font-size: $F100;
+}
+
+a {
+  font-size: $F100;
+}
+
+@media (max-width: 1200px) {
+  $font-ratio: 1.175;
+
+  $F800: math.pow($font-ratio, 8) * 1rem;
+  $F700: math.pow($font-ratio, 7) * 1rem;
+  $F600: math.pow($font-ratio, 6) * 1rem;
+  $F500: math.pow($font-ratio, 5) * 1rem;
+  $F400: math.pow($font-ratio, 4) * 1rem;
+  $F300: math.pow($font-ratio, 3) * 1rem;
+  $F200: math.pow($font-ratio, 2) * 1rem;
+  $F100: $font-ratio * 1rem;
+  $F-100: math.pow($font-ratio, -1) * 1rem;
+  $F-200: math.pow($font-ratio, -2) * 1rem;
+
+  h1 {
+    font-size: $F800;
+  }
+  h2 {
+    font-size: $F700;
+  }
+  h3 {
+    font-size: $F600;
+  }
+  h4 {
+    font-size: $F500;
+  }
+  h5 {
+    font-size: $F400;
+  }
+  h6 {
+    font-size: $F300;
+  }
+
+  span {
+    font-size: $F200;
+  }
+
+  p {
+    font-size: $F100;
+  }
+
+  a {
+    font-size: $F100;
+  }
+}
+
+@media (max-width: 600px) {
+  $font-ratio: 1.125;
+
+  $F800: math.pow($font-ratio, 8) * 1rem;
+  $F700: math.pow($font-ratio, 7) * 1rem;
+  $F600: math.pow($font-ratio, 6) * 1rem;
+  $F500: math.pow($font-ratio, 5) * 1rem;
+  $F400: math.pow($font-ratio, 4) * 1rem;
+  $F300: math.pow($font-ratio, 3) * 1rem;
+  $F200: math.pow($font-ratio, 2) * 1rem;
+  $F100: $font-ratio * 1rem;
+  $F-100: math.pow($font-ratio, -1) * 1rem;
+  $F-200: math.pow($font-ratio, -2) * 1rem;
+
+  h1 {
+    font-size: $F800;
+  }
+  h2 {
+    font-size: $F700;
+  }
+  h3 {
+    font-size: $F600;
+  }
+  h4 {
+    font-size: $F500;
+  }
+  h5 {
+    font-size: $F400;
+  }
+  h6 {
+    font-size: $F300;
+  }
+
+  span {
+    font-size: $F200;
+  }
+
+  p {
+    font-size: $F100;
+  }
+
+  a {
+    font-size: $F100;
+  }
+}
