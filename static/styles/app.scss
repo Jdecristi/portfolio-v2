@@ -32,6 +32,11 @@ button {
   transition: all 100ms ease-in-out;
   color: $black;
 
+  &.large {
+    font-size: $F200;
+    padding: 1rem 3rem;
+  }
+
   &:hover {
     transform: translate(-5px, -5px);
     box-shadow: 10px 10px 0 $black;
