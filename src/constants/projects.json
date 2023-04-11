@@ -3,7 +3,7 @@
     "name": "Opensea Clone",
     "path": "opensea-clone.png",
     "description": "I created an NFT marketplace with HTML, CSS, Typescript, Next.js, Thirdweb, and Firebase. Users can personalize accounts and trade NFTs with Metamask login. I improved my skills in blockchain and development, resulting in an intuitive UI. A valuable learning experience for me.",
-    "slug": "cpensea-clone"
+    "slug": "opensea-clone"
   },
   {
     "name": "Weather App",
@@ -15,7 +15,7 @@
     "name": "Crypto Lottery",
     "path": "crypto-lottery.png",
     "description": "I built the Crypto Lottery to get my feet wet with blockchain development. This app comes with self-written, Mocha-tested smart contracts deployed to Rinkeby and Mumbai test networks. I used Hardhat.js to manage the backend and React.js on the front-end with Moralis to interact with the blockchains.",
-    "slug": "crypto-lottery"
+    "slug": "lottery"
   },
   {
     "name": "Tiles",

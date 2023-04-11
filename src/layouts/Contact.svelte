@@ -30,7 +30,6 @@
 
       a {
         color: $white;
-        font-size: $F100;
         transition: all 100ms ease-in-out;
 
         &:hover {
