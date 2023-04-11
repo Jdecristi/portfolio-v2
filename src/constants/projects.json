@@ -14,7 +14,7 @@
   {
     "name": "Crypto Lottery",
     "path": "crypto-lottery.png",
-    "description": "I built a responsive Weather App with Typescript, HTML, CSS, and Next.js, using Openweather API and Suncalc to adapt the UI to the user's local weather and time. With a custom background that changes based on these factors, I improved the user experience. The app lets users search for the weather in any city worldwide.",
+    "description": "I built the Crypto Lottery to get my feet wet with blockchain development. This app comes with self-written, Mocha-tested smart contracts deployed to Rinkeby and Mumbai test networks. I used Hardhat.js to manage the backend and React.js on the front-end with Moralis to interact with the blockchains.",
     "slug": "crypto-lottery"
   },
   {
