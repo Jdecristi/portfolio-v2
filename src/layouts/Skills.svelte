@@ -15,7 +15,6 @@
 
 <style lang="scss" global>
   .skills {
-    padding: 1rem 0;
     background-color: $black;
     display: flex;
 
@@ -34,11 +33,14 @@
       animation: slide 20s linear infinite;
 
       .skills-img {
-        margin: 0 2rem;
+        margin: 2rem;
+        height: 50px;
       }
 
-      &:hover {
-        animation-play-state: paused;
+      @media (min-width: 901px) {
+        &:hover {
+          animation-play-state: paused;
+        }
       }
     }
   }

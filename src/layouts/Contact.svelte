@@ -25,11 +25,12 @@
     }
 
     span {
+      text-align: center;
       color: $black;
 
       a {
         color: $white;
-        font-size: $F200;
+        font-size: $F100;
         transition: all 100ms ease-in-out;
 
         &:hover {

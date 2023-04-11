@@ -70,6 +70,9 @@
         position: absolute;
         top: 5rem;
         right: 5rem;
+        @media (max-width: 900px) {
+          top: 85%;
+        }
       }
     }
 

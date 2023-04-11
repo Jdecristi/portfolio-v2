@@ -2,13 +2,16 @@
   import Paper from "@src/components/Paper.svelte";
   import Paralax from "@src/components/Paralax.svelte";
   import TextBubble from "@src/components/TextBubble.svelte";
+  import ShowerThoughts from "@src/constants/shower-thoughts.json";
+
+  $: currentThought = ShowerThoughts[Math.floor(Math.random() * ShowerThoughts.length)];
 </script>
 
 <section class="about-me">
   <div class="image-area">
     <div class="text-bubble-container">
       <Paralax depth={-2}>
-        <TextBubble width="150px">What did I have for dinner last night?</TextBubble>
+        <TextBubble width="150px">{currentThought}</TextBubble>
       </Paralax>
     </div>
     <img class="profile-img" src="/assets/profile.png" alt="Profile" />
@@ -48,7 +51,7 @@
       flex-direction: column;
       height: auto;
       gap: 5vh;
-      padding: 5rem 5%;
+      padding: 10rem 5%;
     }
 
     .image-area {
@@ -69,8 +72,8 @@
         }
 
         @media (max-width: 600px) {
-          top: -20%;
-          left: -35%;
+          top: -30%;
+          left: -40%;
         }
       }
 

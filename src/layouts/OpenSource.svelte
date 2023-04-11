@@ -37,6 +37,7 @@
       top: 50%;
       left: 0;
       width: 90vw;
+      max-width: 1200px;
       transform: translateY(-50%);
       z-index: -1;
 
