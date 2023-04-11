@@ -1,0 +1,14 @@
+[
+  { "name": "HTML", "img": "html.png" },
+  { "name": "CSS", "img": "css.png" },
+  { "name": "Material UI", "img": "material-ui.png" },
+  { "name": "Bootstrap", "img": "bootstrap.png" },
+  { "name": "Javascript", "img": "javascript.png" },
+  { "name": "Typesctript", "img": "typescript.png" },
+  { "name": "Node.js", "img": "node.png" },
+  { "name": "React.js", "img": "reactjs.png" },
+  { "name": "Next.js", "img": "nextjs.png" },
+  { "name": "Vue.js", "img": "vuejs.png" },
+  { "name": "Svelte", "img": "svelte.png" },
+  { "name": "Mongo DB", "img": "mongodb.png" }
+]
