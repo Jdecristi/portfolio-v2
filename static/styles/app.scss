@@ -1,6 +1,9 @@
 @forward "typography";
 @forward "colors";
 
+@use "colors" as *;
+@use "typography" as *;
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,5 +19,21 @@ body {
   a {
     color: inherit;
     text-decoration: none;
+  }
+}
+
+button {
+  background-color: $green;
+  border: 3px solid $black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 $black;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  color: $black;
+
+  &:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 10px 10px 0 $black;
   }
 }
