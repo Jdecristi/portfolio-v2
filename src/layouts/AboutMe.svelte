@@ -1,32 +1,33 @@
 <script lang="ts">
-  import Paper from '@src/components/Paper.svelte'
-  import Paralax from '@src/components/Paralax.svelte';
-  import TextBubble from '@src/components/TextBubble.svelte'
+  import Paper from "@src/components/Paper.svelte";
+  import Paralax from "@src/components/Paralax.svelte";
+  import TextBubble from "@src/components/TextBubble.svelte";
 </script>
 
 <section class="about-me">
   <div class="image-area">
     <div class="text-bubble-container">
       <Paralax depth={-2}>
-        <TextBubble width="150px">
-          What did I have for dinner last night?
-        </TextBubble>
+        <TextBubble width="150px">What did I have for dinner last night?</TextBubble>
       </Paralax>
     </div>
-    <img class="profile-img" src="/assets/profile.png" alt="Profile">
+    <img class="profile-img" src="/assets/profile.png" alt="Profile" />
   </div>
   <div class="content-area">
     <h1>About Me</h1>
     <Paper>
       <div class="paper-contents">
         <p>
-          I transitioned from construction to coding after discovering my passion for building websites, starting with a local Korean BBQ restaurant. After starting at Thumbstopper working with Vue.js, I expanded my skills with React, Typescript, and other tools. I later joined Formation for formal training under senior developers from top-tier companies like Google and Meta. Now, I'm eager to bring my skills to a new team.
+          I transitioned from construction to coding after discovering my passion for building websites, starting with a
+          local Korean BBQ restaurant. After starting at Thumbstopper working with Vue.js, I expanded my skills with
+          React, Typescript, and other tools. I later joined Formation for formal training under senior developers from
+          top-tier companies like Google and Meta. Now, I'm eager to bring my skills to a new team.
         </p>
       </div>
     </Paper>
     <div class="curly-arrow-container">
       <Paralax>
-        <img class="curly-arrow" src="/assets/curly-arrow.svg" alt="Profile">
+        <img class="curly-arrow" src="/assets/curly-arrow.svg" alt="Profile" />
       </Paralax>
     </div>
   </div>
@@ -46,9 +47,8 @@
     @media (max-width: 900px) {
       flex-direction: column;
       height: auto;
-      max-height: 100vh;
       gap: 5vh;
-      padding: 10rem 5%;
+      padding: 5rem 5%;
     }
 
     .image-area {
@@ -79,13 +79,13 @@
         width: 20vw;
 
         @media (max-width: 1200px) {
-          width: 30vw
+          width: 30vw;
         }
         @media (max-width: 900px) {
-          width: 40vw
+          width: 40vw;
         }
         @media (max-width: 600px) {
-          width: 50vw
+          width: 50vw;
         }
       }
     }
@@ -100,7 +100,7 @@
       .paper-contents {
         padding: 2rem;
         max-width: 30vw;
-        
+
         @media (max-width: 1200px) {
           max-width: 50vw;
         }

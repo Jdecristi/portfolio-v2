@@ -3,8 +3,9 @@
   import Gears from "@src/components/Gears.svelte";
   import Paper from "@src/components/Paper.svelte";
 </script>
+
 <section class="exerience">
-  <img class="blob" src="assets/blobs/blob-1.svg" alt="blob">
+  <img class="blob" src="assets/blobs/blob-1.svg" alt="blob" />
   <div class="layer-zero">
     <div class="boxes-container">
       <Boxes />
@@ -18,12 +19,15 @@
     <Paper>
       <div class="paper-content">
         <div class="paper-content-header">
-          <img class="thumbstopper-logo" src="assets/thumbstopper.svg" alt="Thumbstopper Logo">
+          <img class="thumbstopper-logo" src="assets/thumbstopper.svg" alt="Thumbstopper Logo" />
           <h4>Thumbstopper</h4>
         </div>
         <span>Jun, 2021 - Jul, 2022</span>
         <p>
-          During my time as a Frontend Engineer, I restructured and redesigned the frontend to improve workflow and reduce user errors. By adding form validation, I also bolstered security. Utilizing Vue.js, Scss, and Bootstrap, I developed visually stunning landing pages for clients, while simultaneously debugging and adding new features to the production codebase.
+          During my time as a Frontend Engineer, I restructured and redesigned the frontend to improve workflow and
+          reduce user errors. By adding form validation, I also bolstered security. Utilizing Vue.js, Scss, and
+          Bootstrap, I developed visually stunning landing pages for clients, while simultaneously debugging and adding
+          new features to the production codebase.
         </p>
       </div>
     </Paper>
@@ -68,7 +72,7 @@
         right: 5rem;
       }
     }
-    
+
     .layer-one {
       padding: 15rem 10%;
       display: flex;
@@ -93,7 +97,7 @@
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        
+
         @media (max-width: 1200px) {
           max-width: 50vw;
         }
@@ -103,12 +107,17 @@
         }
 
         @media (max-width: 600px) {
-          max-width: 70vw;
+          max-width: 80vw;
         }
 
         .paper-content-header {
           display: flex;
+          align-items: center;
           gap: 2rem;
+
+          @media (max-width: 600px) {
+            gap: 1rem;
+          }
 
           .thumbstopper-logo {
             width: 50px;
