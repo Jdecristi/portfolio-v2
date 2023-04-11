@@ -3,24 +3,24 @@
     "name": "Opensea Clone",
     "path": "opensea-clone.png",
     "description": "I created an NFT marketplace with HTML, CSS, Typescript, Next.js, Thirdweb, and Firebase. Users can personalize accounts and trade NFTs with Metamask login. I improved my skills in blockchain and development, resulting in an intuitive UI. A valuable learning experience for me.",
-    "slug": "Opensea-Clone"
+    "slug": "cpensea-clone"
   },
   {
     "name": "Weather App",
     "path": "weather-app.png",
     "description": "I made a responsive Weather App with Typescript and React.js, using Openweather API and Suncalc to show local weather and time. With a custom background that changes according to current weather and time, I explored advanced topics such as parallax effect. Built with HTML, CSS, and Next.js.",
-    "slug": "WeatherApp"
+    "slug": "weatherapp"
   },
   {
     "name": "Crypto Lottery",
     "path": "crypto-lottery.png",
     "description": "I built a responsive Weather App with Typescript, HTML, CSS, and Next.js, using Openweather API and Suncalc to adapt the UI to the user's local weather and time. With a custom background that changes based on these factors, I improved the user experience. The app lets users search for the weather in any city worldwide.",
-    "slug": "Crypto-Lottery"
+    "slug": "crypto-lottery"
   },
   {
     "name": "Tiles",
     "path": "tiles.png",
     "description": "Made a memory game using HTML, CSS, Typescript, and React.js with custom star explosion animation. Added local score screen to store user data without login. Demonstrates front-end dev skills, eager to build upon in future projects.",
-    "slug": "Tiles"
+    "slug": "tiles"
   }
 ]

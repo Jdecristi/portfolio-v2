@@ -8,7 +8,7 @@
     {#each ProjectData as project}
       <Paper>
         <div class="paper-content">
-          <img class="thumbnail" src={`assets/projects/${project.path}`} alt={`${project.name} Thumbnail`} />
+          <img class="thumbnail" src={`assets/project-thumbnails/${project.path}`} alt={`${project.name} Thumbnail`} />
           <h5>{project.name}</h5>
           <p>{project.description}</p>
           <div>
