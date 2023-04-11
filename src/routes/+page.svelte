@@ -4,6 +4,7 @@
   import Projects from "@src/layouts/projects.svelte";
   import Skills from "@src/layouts/Skills.svelte";
   import OpenSource from "@src/layouts/OpenSource.svelte";
+  import Contact from "@src/layouts/Contact.svelte";
 </script>
 
 <AboutMe />
@@ -11,5 +12,6 @@
 <Projects />
 <Skills />
 <OpenSource />
+<Contact />
 
 <style lang="scss" global></style>
