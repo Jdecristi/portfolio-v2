@@ -2,6 +2,7 @@
   import Paper from "@src/components/Paper.svelte";
   import Paralax from "@src/components/Paralax.svelte";
   import TextBubble from "@src/components/TextBubble.svelte";
+  import Image from "@src/components/Image.svelte";
   import ShowerThoughts from "@src/constants/shower-thoughts.json";
 
   $: currentThought = ShowerThoughts[Math.floor(Math.random() * ShowerThoughts.length)];
@@ -14,7 +15,9 @@
         <TextBubble width="150px">{currentThought}</TextBubble>
       </Paralax>
     </div>
-    <img class="profile-img" src="/assets/profile.png" alt="Profile" />
+    <div class="profile-img">
+      <Image src="/assets/profile.png" min="/assets/profile-min.png" alt="Profile" />
+    </div>
   </div>
   <div class="content-area">
     <h1>About Me</h1>
@@ -30,7 +33,9 @@
     </Paper>
     <div class="curly-arrow-container">
       <Paralax>
-        <img class="curly-arrow" src="/assets/curly-arrow.svg" alt="Profile" />
+        <div class="curly-arrow">
+          <Image src="/assets/curly-arrow.svg" alt="Profile Arrow" />
+        </div>
       </Paralax>
     </div>
   </div>

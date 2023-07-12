@@ -1,5 +1,6 @@
 <script lang="ts">
   import Paper from "@src/components/Paper.svelte";
+  import Image from "@src/components/Image.svelte";
   import ProjectData from "@src/constants/projects.json";
 </script>
 
@@ -8,11 +9,17 @@
     {#each ProjectData as project}
       <Paper>
         <div class="paper-content">
-          <img class="thumbnail" src={`assets/project-thumbnails/${project.path}`} alt={`${project.name} Thumbnail`} />
+          <div class="thumbnail">
+            <Image
+              src="assets/project-thumbnails/{project.path}.png"
+              min="assets/project-thumbnails/{project.path}-min.png"
+              alt={`${project.name} Thumbnail`}
+            />
+          </div>
           <h5>{project.name}</h5>
           <p>{project.description}</p>
           <div>
-            <a href={`https://github.com/jdecristi/${project.slug}`} target="_blank">
+            <a href="https://github.com/jdecristi/{project.slug}" target="_blank">
               <button> View Project </button>
             </a>
           </div>
@@ -21,7 +28,9 @@
     {/each}
   </div>
 
-  <img class="text-bubble" src="assets/text-bubble/text-bubble.static.png" alt="Text Bubble" />
+  <div class="text-bubble">
+    <Image src="assets/text-bubble/text-bubble.static.png" alt="Text Bubble" />
+  </div>
 </section>
 
 <style lang="scss" global>

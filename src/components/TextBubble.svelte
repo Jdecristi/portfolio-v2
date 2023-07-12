@@ -1,9 +1,13 @@
 <script lang="ts">
-  export let width = '100px'   
+  import Image from "@src/components/Image.svelte";
+
+  export let width = "100px";
 </script>
 
 <div class="text-bubble-container" style={`width: ${width}`}>
-  <img class="text-bubble-image" src="/assets/text-bubble/thought-bubble.png" alt="Thought Bubble">
+  <div class="text-bubble-image">
+    <Image src="/assets/text-bubble/thought-bubble.png" alt="Thought Bubble" />
+  </div>
   <div class="text-bubble-content">
     <slot />
   </div>

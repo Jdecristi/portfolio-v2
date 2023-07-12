@@ -1,5 +1,11 @@
+<script lang="ts">
+  import Image from "@src/components/Image.svelte";
+</script>
+
 <section class="open-source">
-  <img class="blob" src="assets/blobs/blob-2.svg" alt="blob" />
+  <div class="blob">
+    <Image src="assets/blobs/blob-2.svg" alt="blob" />
+  </div>
   <h1>Open Source</h1>
   <p>
     The concept of open source has played a significant role in my professional journey. In my view, software should

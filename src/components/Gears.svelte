@@ -1,7 +1,17 @@
+<script lang="ts">
+  import Image from "@src/components/Image.svelte";
+</script>
+
 <div class="gears-component">
-  <img class="gear gear-1" src="assets/gear.svg" alt="Gear 1">
-  <img class="gear gear-2" src="assets/gear.svg" alt="Gear 2">
-  <img class="gear gear-3" src="assets/gear.svg" alt="Gear 3">
+  <div class="gear gear-1">
+    <Image src="assets/gear.svg" alt="Gear 1" />
+  </div>
+  <div class="gear gear-2">
+    <Image src="assets/gear.svg" alt="Gear 2" />
+  </div>
+  <div class="gear gear-3">
+    <Image src="assets/gear.svg" alt="Gear 3" />
+  </div>
 </div>
 
 <style lang="scss" global>

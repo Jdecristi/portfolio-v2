@@ -1,14 +1,19 @@
 <script lang="ts">
+  import Image from "@src/components/Image.svelte";
   import SkillData from "@src/constants/skills.json";
 </script>
 
 <section class="skills">
   <div class="skills-container">
     {#each SkillData as skill}
-      <img class="skills-img" src={`assets/skills/${skill.img}`} alt={skill.name} />
+      <div class="skills-img">
+        <Image src={`assets/skills/${skill.img}`} alt={skill.name} />
+      </div>
     {/each}
     {#each SkillData as skill}
-      <img class="skills-img" src={`assets/skills/${skill.img}`} alt={skill.name} />
+      <div class="skills-img">
+        <Image src={`assets/skills/${skill.img}`} alt={skill.name} />
+      </div>
     {/each}
   </div>
 </section>
@@ -35,12 +40,8 @@
       .skills-img {
         margin: 2rem;
         height: 50px;
-      }
-
-      @media (min-width: 901px) {
-        &:hover {
-          animation-play-state: paused;
-        }
+        width: max-content;
+        max-width: 220px;
       }
     }
   }

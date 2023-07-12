@@ -2,10 +2,13 @@
   import Boxes from "@src/components/Boxes.svelte";
   import Gears from "@src/components/Gears.svelte";
   import Paper from "@src/components/Paper.svelte";
+  import Image from "@src/components/Image.svelte";
 </script>
 
 <section class="exerience">
-  <img class="blob" src="assets/blobs/blob-1.svg" alt="blob" />
+  <div class="blob">
+    <Image src="assets/blobs/blob-1.svg" alt="blob" />
+  </div>
   <div class="layer-zero">
     <div class="boxes-container">
       <Boxes />
@@ -19,7 +22,9 @@
     <Paper>
       <div class="paper-content">
         <div class="paper-content-header">
-          <img class="thumbstopper-logo" src="assets/thumbstopper.svg" alt="Thumbstopper Logo" />
+          <div class="thumbstopper-logo">
+            <Image src="assets/thumbstopper.svg" alt="Thumbstopper Logo" />
+          </div>
           <h4>Thumbstopper</h4>
         </div>
         <span>Jun, 2021 - Jul, 2022</span>
