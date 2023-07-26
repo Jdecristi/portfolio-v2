@@ -1,5 +1,11 @@
 [
   {
+    "name": "Shiba Chat Bot",
+    "path": "shiba-chat-bot",
+    "description": "I developed the SHIB Chat Bot in May 2023, using SvelteKit, Open AI, and SerpAPI. It offers real-time info on SHIB and Shibareum, delivering human-like responses by integrating Open AI and SerpAPI.",
+    "slug": "shiba-chat-bot"
+  },
+  {
     "name": "Opensea Clone",
     "path": "opensea-clone",
     "description": "I created an NFT marketplace with HTML, CSS, Typescript, Next.js, Thirdweb, and Firebase. Users can personalize accounts and trade NFTs with Metamask login. I improved my skills in blockchain and development, resulting in an intuitive UI. A valuable learning experience for me.",
