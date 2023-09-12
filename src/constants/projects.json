@@ -1,31 +1,30 @@
 [
   {
     "name": "Shiba Chat Bot",
-    "path": "shiba-chat-bot",
+    "imgPath": "shiba-chat-bot",
     "description": "I developed the SHIB Chat Bot in May 2023, using SvelteKit, Open AI, and SerpAPI. It offers real-time info on SHIB and Shibareum, delivering human-like responses by integrating Open AI and SerpAPI.",
     "slug": "shiba-chat-bot"
   },
   {
+    "name": "Uniswap Clone",
+    "imgPath": "uniswap-clone",
+    "description": "Uniswap Clone is a decentralized exchange (DEX) that empowering users with free trading. The project displays proficiency in decentralized software development and web3 technology by utilizing React, Web3 React, and Uniswap SDK.",
+    "slug": "uniswap-clone"
+  },
+  {
     "name": "Opensea Clone",
-    "path": "opensea-clone",
-    "description": "I created an NFT marketplace with HTML, CSS, Typescript, Next.js, Thirdweb, and Firebase. Users can personalize accounts and trade NFTs with Metamask login. I improved my skills in blockchain and development, resulting in an intuitive UI. A valuable learning experience for me.",
-    "slug": "opensea-clone"
+    "imgPath": "opensea-clone",
+    "description": "I created an NFT marketplace with HTML, CSS, Typescript, Next.js, Thirdweb, and Firebase. Users can personalize accounts and trade NFTs with Metamask login. I improved my skills in blockchain and development, resulting in an intuitive UI. A valuable learning experience for me."
   },
   {
     "name": "Weather App",
-    "path": "weather-app",
+    "imgPath": "weather-app",
     "description": "I made a responsive Weather App with Typescript and React.js, using Openweather API and Suncalc to show local weather and time. With a custom background that changes according to current weather and time, I explored advanced topics such as parallax effect. Built with HTML, CSS, and Next.js.",
     "slug": "weatherapp"
   },
   {
-    "name": "Crypto Lottery",
-    "path": "crypto-lottery",
-    "description": "I built the Crypto Lottery to get my feet wet with blockchain development. This app comes with self-written, Mocha-tested smart contracts deployed to Rinkeby and Mumbai test networks. I used Hardhat.js to manage the backend and React.js on the front-end with Moralis to interact with the blockchains.",
-    "slug": "lottery"
-  },
-  {
     "name": "Tiles",
-    "path": "tiles",
+    "imgPath": "tiles",
     "description": "Made a memory game using HTML, CSS, Typescript, and React.js with custom star explosion animation. Added local score screen to store user data without login. Demonstrates front-end dev skills, eager to build upon in future projects.",
     "slug": "tiles"
   }

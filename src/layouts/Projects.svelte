@@ -11,16 +11,16 @@
         <div class="paper-content">
           <div class="thumbnail">
             <Image
-              src="assets/project-thumbnails/{project.path}.png"
-              min="assets/project-thumbnails/{project.path}-min.png"
+              src="assets/project-thumbnails/{project.imgPath}.png"
+              min="assets/project-thumbnails/{project.imgPath}-min.png"
               alt={`${project.name} Thumbnail`}
             />
           </div>
           <h5>{project.name}</h5>
           <p>{project.description}</p>
-          <div>
+          <div class="buttons-container">
             <a href="https://github.com/jdecristi/{project.slug}" target="_blank">
-              <button> View Project </button>
+              <button>View Project</button>
             </a>
           </div>
         </div>
@@ -64,6 +64,10 @@
 
         .thumbnail {
           max-width: 100%;
+        }
+        .buttons-container {
+          display: flex;
+          justify-content: space-between;
         }
       }
     }

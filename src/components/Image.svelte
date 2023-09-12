@@ -35,18 +35,20 @@
     width: 100%;
     background-size: cover;
     background-position: center;
+    border-radius: 15px;
 
     &.blur {
-      filter: blur(100px);
+      filter: blur(25px);
     }
 
     img {
-      height: 100%;
+      height: 98%;
       width: 100%;
       object-fit: contain;
       object-position: center;
       opacity: 0;
       transition: opacity 100ms ease-in-out;
+      border-radius: 10px;
 
       &.loaded {
         opacity: 1;
