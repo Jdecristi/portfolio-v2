@@ -9,7 +9,8 @@
     "name": "Uniswap Clone",
     "imgPath": "uniswap-clone",
     "description": "Uniswap Clone is a decentralized exchange (DEX) that empowering users with free trading. The project displays proficiency in decentralized software development and web3 technology by utilizing React, Web3 React, and Uniswap SDK.",
-    "slug": "uniswap-clone"
+    "slug": "uniswap-clone",
+    "developmentPath": "uniswap-clone"
   },
   {
     "name": "Opensea Clone",
@@ -20,12 +21,14 @@
     "name": "Weather App",
     "imgPath": "weather-app",
     "description": "I made a responsive Weather App with Typescript and React.js, using Openweather API and Suncalc to show local weather and time. With a custom background that changes according to current weather and time, I explored advanced topics such as parallax effect. Built with HTML, CSS, and Next.js.",
-    "slug": "weatherapp"
+    "slug": "weatherapp",
+    "developmentPath": "weather-app"
   },
   {
     "name": "Tiles",
     "imgPath": "tiles",
     "description": "Made a memory game using HTML, CSS, Typescript, and React.js with custom star explosion animation. Added local score screen to store user data without login. Demonstrates front-end dev skills, eager to build upon in future projects.",
-    "slug": "tiles"
+    "slug": "tiles",
+    "developmentPath": "tiles"
   }
 ]

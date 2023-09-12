@@ -13,7 +13,7 @@
     opportunities to participate in new projects, and I invite you to peruse my GitHub profile for further information.
   </p>
   <a href="https://github.com/jdecristi" target="_blank">
-    <button class="large">Github</button>
+    <button class="primary large">Github</button>
   </a>
 </section>
 

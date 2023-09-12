@@ -20,8 +20,13 @@
           <p>{project.description}</p>
           <div class="buttons-container">
             <a href="https://github.com/jdecristi/{project.slug}" target="_blank">
-              <button>View Project</button>
+              <button class="secondary">See Source Code</button>
             </a>
+            {#if project.developmentPath}
+              <a href="https://{project.developmentPath}.jdecristi.com" target="_blank">
+                <button class="primary">Take me to the Site</button>
+              </a>
+            {/if}
           </div>
         </div>
       </Paper>
