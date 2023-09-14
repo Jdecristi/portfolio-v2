@@ -20,11 +20,11 @@
           <p>{project.description}</p>
           <div class="buttons-container">
             <a href="https://github.com/jdecristi/{project.slug}" target="_blank">
-              <button class="secondary">See Source Code</button>
+              <button class="secondary">Source Code</button>
             </a>
             {#if project.developmentPath}
               <a href="https://{project.developmentPath}.jdecristi.com" target="_blank">
-                <button class="primary">Take me to the Site</button>
+                <button class="primary">Live Site</button>
               </a>
             {/if}
           </div>
@@ -54,6 +54,11 @@
       gap: 10vw;
       overflow-x: scroll;
 
+      @media (max-width: 600px) {
+        padding: 5rem 5vw;
+        gap: 5vw;
+      }
+
       .paper-content {
         height: 550px;
         width: 40vw;
@@ -67,12 +72,16 @@
           width: 80vw;
         }
 
+        @media (max-width: 600px) {
+          width: 85vw;
+        }
+
         .thumbnail {
           max-width: 100%;
         }
         .buttons-container {
           display: flex;
-          justify-content: space-between;
+          gap: 1rem;
         }
       }
     }

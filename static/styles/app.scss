@@ -23,43 +23,29 @@ body {
   }
 }
 
-.primary {
-  background-color: $green;
+button {
+  padding: 0.5rem 1rem;
   border: 3px solid $black;
   border-radius: 10px;
-  box-shadow: 5px 5px 0 $black;
-  padding: 0.5rem 1rem;
   cursor: pointer;
   transition: all 100ms ease-in-out;
   color: $black;
-
-  &.large {
-    font-size: $F200;
-    padding: 1rem 3rem;
-  }
 
   &:hover {
     transform: translate(-5px, -5px);
     box-shadow: 10px 10px 0 $black;
   }
-}
-.secondary {
-  background-color: transparent;
-  border: 3px solid $black;
-  border-radius: 10px;
-  box-shadow: 5px 5px 0 $black;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  transition: all 100ms ease-in-out;
-  color: $black;
+
+  &.primary {
+    background-color: $green;
+  }
+
+  &.secondary {
+    background-color: transparent;
+  }
 
   &.large {
     font-size: $F200;
     padding: 1rem 3rem;
-  }
-
-  &:hover {
-    transform: translate(-5px, -5px);
-    box-shadow: 10px 10px 0 $black;
   }
 }
