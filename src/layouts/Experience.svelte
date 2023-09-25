@@ -29,10 +29,12 @@
         </div>
         <span>Jun, 2021 - Jul, 2022</span>
         <p>
-          During my time as a Frontend Engineer, I restructured and redesigned the frontend to improve workflow and
-          reduce user errors. By adding form validation, I also bolstered security. Utilizing Vue.js, Scss, and
-          Bootstrap, I developed visually stunning landing pages for clients, while simultaneously debugging and adding
-          new features to the production codebase.
+          At Thumbstopper, I successfully integrated back-end services and server-side logic to create a
+          high-performance platform. I also ensured smooth front-end integration and seamless integration of user-facing
+          elements. Overcoming architectural challenges, I implemented the MVC design patterns and utilized PHP web
+          frameworks to optimize the system's performance. Additionally, I employed front-end technologies like Vue.js
+          and object-oriented PHP programming to enhance the user experience. Furthermore, I efficiently managed and
+          accessed SQL databases to store and retrieve data.
         </p>
       </div>
     </Paper>
