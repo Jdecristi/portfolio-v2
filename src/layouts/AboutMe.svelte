@@ -24,10 +24,8 @@
     <Paper>
       <div class="paper-contents">
         <p>
-          I transitioned from construction to coding after discovering my passion for building websites, starting with a
-          local Korean BBQ restaurant. After starting at Thumbstopper working with Vue.js, I expanded my skills with
-          React, Typescript, and other tools. I later joined Formation for formal training under senior developers from
-          top-tier companies like Google and Meta. Now, I'm eager to bring my skills to a new team.
+          I'm a full stack engineer who loves to build immersive web applications. I'm obsessed with solving problems, 
+          tinkering with new technology, and adding skills by breaking down bariers.
         </p>
       </div>
     </Paper>
@@ -84,7 +82,8 @@
 
       .profile-img {
         stroke: 3px solid $black;
-        width: 20vw;
+        width: 50vw;
+        max-width: 300px;
 
         @media (max-width: 1200px) {
           width: 30vw;
@@ -107,17 +106,19 @@
       }
       .paper-contents {
         padding: 2rem;
-        max-width: 30vw;
+        width: 100vw;
+        max-width: 500px;
 
         @media (max-width: 1200px) {
-          max-width: 50vw;
+          max-width: 400px;
         }
         @media (max-width: 900px) {
-          max-width: 60vw;
+          width: 70vw;
+          max-width: 500px;
         }
 
         @media (max-width: 600px) {
-          max-width: 70vw;
+          width: 70vw;
         }
       }
       .curly-arrow-container {
@@ -126,13 +127,16 @@
         left: 100%;
         width: 75px;
 
+        @media (max-width: 1200px) {
+          width: 50px;
+        }
         @media (max-width: 900px) {
           width: 50px;
         }
 
         @media (max-width: 600px) {
-          top: 0;
-          right: 10px;
+          top: -10px;
+          left: 95%;
         }
 
         .curly-arrow {
