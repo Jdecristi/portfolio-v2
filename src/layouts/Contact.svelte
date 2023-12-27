@@ -3,7 +3,9 @@
   <span
     >You can contact me through <a href="mailto:joshua.decristi@gmail.com" target="blank">Email</a> or, direct message
     me through
-    <a href="https://www.linkedin.com/in/joshua-decristi/" target="blank">Linkedin</a>.</span
+    <a href="https://www.linkedin.com/in/joshua-decristi/" target="blank">
+      Linkedin
+    </a>.</span
   >
 </section>
 
@@ -29,11 +31,31 @@
       color: $black;
 
       a {
+        padding: 0 0 0.5rem 0;
         color: $white;
-        transition: all 100ms ease-in-out;
+        display: inline-block;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: $white;
+          transform-origin: bottom left;
+          transition: transform 0.25s ease-out;
+        }
 
         &:hover {
-          border-bottom: 2px solid $white;
+          transform: none;
+          box-shadow: none;
+
+          &::after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+          }
         }
       }
     }
