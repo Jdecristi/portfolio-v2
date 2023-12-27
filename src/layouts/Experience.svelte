@@ -3,6 +3,13 @@
   import Gears from "@src/components/Gears.svelte";
   import Paper from "@src/components/Paper.svelte";
   import Image from "@src/components/Image.svelte";
+  import Exerpt from "@src/components/Exerpt.svelte";
+
+  let contentIsShort = false;
+
+  const togglContentIsShort = () => {
+    contentIsShort = !contentIsShort;
+  }
 </script>
 
 <section class="exerience">
@@ -29,13 +36,21 @@
         </div>
         <span>Jun, 2021 - Jul, 2022</span>
         <p>
-          At Thumbstopper, I successfully integrated back-end services and server-side logic to create a
-          high-performance platform. I also ensured smooth front-end integration and seamless integration of user-facing
-          elements. Overcoming architectural challenges, I implemented the MVC design patterns and utilized PHP web
-          frameworks to optimize the system's performance. Additionally, I employed front-end technologies like Vue.js
-          and object-oriented PHP programming to enhance the user experience. Furthermore, I efficiently managed and
-          accessed SQL databases to store and retrieve data.
+          <Exerpt 
+            isOpen={contentIsShort} 
+            content={`
+              At Thumbstopper, I successfully integrated back-end services and server-side logic to create a
+              high-performance platform. I also ensured smooth front-end integration and seamless integration of user-facing
+              elements. Overcoming architectural challenges, I implemented the MVC design patterns and utilized PHP web
+              frameworks to optimize the system's performance. Additionally, I employed front-end technologies like Vue.js
+              and object-oriented PHP programming to enhance the user experience. Furthermore, I efficiently managed and
+              accessed SQL databases to store and retrieve data.
+            `}
+          />
         </p>
+        <div class="button-container">
+          <button class="link" on:click={togglContentIsShort}>Show More</button>
+        </div>
       </div>
     </Paper>
     <h1>Experience</h1>
@@ -63,7 +78,6 @@
       }
     }
     .layer-zero {
-      position: absolute;
       width: 100%;
       height: 100%;
 
@@ -89,7 +103,6 @@
       justify-content: center;
       align-items: center;
       gap: 10vw;
-      z-index: 1;
 
       @media (max-width: 1200px) {
         padding: 15rem 5%;
@@ -133,6 +146,11 @@
             width: 50px;
             border-radius: 10px;
           }
+        }
+
+        .button-container {
+          display: flex;
+          justify-content: end;
         }
       }
     }
