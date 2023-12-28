@@ -1,7 +1,7 @@
 <section class="contact">
   <h1>Contact</h1>
   <span
-    >You can contact me through <a href="mailto:joshua.decristi@gmail.com" target="blank">Email</a> or, direct message
+    >You can contact me through <a href="mailto:joshua.decristi@gmail.com" target="blank">Email</a> or direct message
     me through
     <a href="https://www.linkedin.com/in/joshua-decristi/" target="blank">
       Linkedin

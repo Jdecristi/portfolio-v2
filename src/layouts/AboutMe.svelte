@@ -25,7 +25,7 @@
       <div class="paper-contents">
         <p>
           I'm a full stack engineer who loves to build immersive web applications. I'm obsessed with solving problems, 
-          tinkering with new technology, and adding skills by breaking down bariers.
+          tinkering with new technology, and adding skills by breaking down barriers.
         </p>
       </div>
     </Paper>
