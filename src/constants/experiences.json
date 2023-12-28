@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Thumbstopper",
+    "date": "June 2021 - July 2022",
+    "logo": {
+      "minUrl": "/assets/experiences/thumbstopper-min.png",
+      "url": "/assets/experiences/thumbstopper.png",
+      "alt": "thumbstopper logo"
+    },
+    "description": "At Thumbstopper, I successfully integrated back-end services and server-side logic to create a high-performance platform. I also ensured smooth front-end integration and seamless integration of user-facing elements. Overcoming architectural challenges, I implemented the MVC design patterns and utilized PHP web frameworks to optimize the system's performance. Additionally, I employed front-end technologies like Vue.js and object-oriented PHP programming to enhance the user experience. Furthermore, I efficiently managed and accessed SQL databases to store and retrieve data."
+  },
+  {
+    "name": "Formation",
+    "date": "Jan 2023 - Present",
+    "logo": {
+      "minUrl": "/assets/experiences/formation-min.png",
+      "url": "/assets/experiences/formation.png",
+      "alt": "formation logo"
+    },
+    "description": "Chosen for exclusive Fellowship providing individualized instruction from leading engineers. Leading a team of 6, we embarked on a unique project - building a Twitter-like platform using only emojis. This endeavor not only taught junior developers essential programming skills but also showcased my ability to effectively mentor and support peer learners. Additionally, I had the opportunity to collaborate with senior developers from renowned tech giants like Facebook and Google on complex tasks, further honing my collaboration skills."
+  },
+  {
+    "name": "Sun West Mortgage Company",
+    "date": "October 2023 - Present",
+    "logo": {
+      "minUrl": "/assets/experiences/swmc-min.png",
+      "url": "/assets/experiences/swmc.png",
+      "alt": "swmc logo"
+    },
+    "description": "At Sun West Mortgage Company, I improved performance by implementing code splitting and lazy loading elements that aren't required during the initial load. To enhance the team's comprehension, I simplified complex ideas for both managers and fellow developers. Additionally, I bolstered stability and minimized errors by integrating and adding TypeScript to the project."
+  }
+]

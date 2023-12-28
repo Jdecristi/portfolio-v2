@@ -1,15 +1,8 @@
 <script lang="ts">
   import Boxes from "@src/components/Boxes.svelte";
   import Gears from "@src/components/Gears.svelte";
-  import Paper from "@src/components/Paper.svelte";
+  import Experiences from "@src/components/Experiences.svelte";
   import Image from "@src/components/Image.svelte";
-  import Exerpt from "@src/components/Exerpt.svelte";
-
-  let contentIsShort = false;
-
-  const togglContentIsShort = () => {
-    contentIsShort = !contentIsShort;
-  }
 </script>
 
 <section class="exerience">
@@ -26,33 +19,7 @@
     </div>
   </div>
   <div class="layer-one">
-    <Paper>
-      <div class="paper-content">
-        <div class="paper-content-header">
-          <div class="thumbstopper-logo">
-            <Image src="assets/thumbstopper.svg" alt="Thumbstopper Logo" />
-          </div>
-          <h4>Thumbstopper</h4>
-        </div>
-        <span>Jun, 2021 - Jul, 2022</span>
-        <p>
-          <Exerpt 
-            isOpen={contentIsShort} 
-            content={`
-              At Thumbstopper, I successfully integrated back-end services and server-side logic to create a
-              high-performance platform. I also ensured smooth front-end integration and seamless integration of user-facing
-              elements. Overcoming architectural challenges, I implemented the MVC design patterns and utilized PHP web
-              frameworks to optimize the system's performance. Additionally, I employed front-end technologies like Vue.js
-              and object-oriented PHP programming to enhance the user experience. Furthermore, I efficiently managed and
-              accessed SQL databases to store and retrieve data.
-            `}
-          />
-        </p>
-        <div class="button-container">
-          <button class="link" on:click={togglContentIsShort}>Show More</button>
-        </div>
-      </div>
-    </Paper>
+    <Experiences />
     <h1>Experience</h1>
   </div>
 </section>
@@ -112,46 +79,6 @@
         padding: 15rem 5%;
         flex-direction: column-reverse;
         gap: 1rem;
-      }
-
-      .paper-content {
-        padding: 2rem;
-        max-width: 35vw;
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-
-        @media (max-width: 1200px) {
-          max-width: 50vw;
-        }
-
-        @media (max-width: 900px) {
-          max-width: 60vw;
-        }
-
-        @media (max-width: 600px) {
-          max-width: 80vw;
-        }
-
-        .paper-content-header {
-          display: flex;
-          align-items: center;
-          gap: 2rem;
-
-          @media (max-width: 600px) {
-            gap: 1rem;
-          }
-
-          .thumbstopper-logo {
-            width: 50px;
-            border-radius: 10px;
-          }
-        }
-
-        .button-container {
-          display: flex;
-          justify-content: end;
-        }
       }
     }
   }

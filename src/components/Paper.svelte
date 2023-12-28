@@ -1,4 +1,8 @@
-<div class="paper">
+<script lang="ts">
+  export let className = "";
+</script>
+
+<div class={"paper " + className}>
   <slot />
 </div>
 
