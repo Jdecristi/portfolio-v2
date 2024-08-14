@@ -22,7 +22,6 @@
     "name": "Tiles",
     "imgPath": "tiles",
     "description": "Made a memory game using HTML, CSS, Typescript, and React.js with custom star explosion animation. Added local score screen to store user data without login. Demonstrates front-end dev skills, eager to build upon in future projects.",
-    "slug": "tiles",
-    "developmentPath": "tiles"
+    "slug": "tiles"
   }
 ]
