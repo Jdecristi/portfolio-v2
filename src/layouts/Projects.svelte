@@ -22,11 +22,6 @@
             <a href="https://github.com/jdecristi/{project.slug}" target="_blank">
               <button class="secondary">Source Code</button>
             </a>
-            {#if project.developmentPath}
-              <a href="https://{project.developmentPath}.jdecristi.com" target="_blank">
-                <button class="primary">Live Site</button>
-              </a>
-            {/if}
           </div>
         </div>
       </Paper>

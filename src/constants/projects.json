@@ -15,8 +15,7 @@
     "name": "Weather App",
     "imgPath": "weather-app",
     "description": "I made a responsive Weather App with Typescript and React.js, using Openweather API and Suncalc to show local weather and time. With a custom background that changes according to current weather and time, I explored advanced topics such as parallax effect. Built with HTML, CSS, and Next.js.",
-    "slug": "weatherapp",
-    "developmentPath": "weather-app"
+    "slug": "weather-app"
   },
   {
     "name": "Tiles",
